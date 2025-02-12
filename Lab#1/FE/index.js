@@ -25,7 +25,7 @@ function fetchEmployees() {
         row.appendChild(deleteCell)
 
         tableBody.appendChild(row)
-        addDeleteBtnEvent()  // i call this function to assign the event listener to the delete buttons after they are rendered
+        addDeleteBtnEvent()  // i call this function to assign the event listener to the delete buttons after they are created
       })
     })
     .catch(error => console.error(error))
